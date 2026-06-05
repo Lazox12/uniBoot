@@ -1,0 +1,6 @@
+#!ipxe
+# for snp only
+dhcp
+echo "welcome in bootstrap.ipxe"
+chain http://${next-server}:80/imgs/ipxe.efi
+

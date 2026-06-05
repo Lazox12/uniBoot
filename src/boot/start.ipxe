@@ -1,0 +1,5 @@
+#!ipxe
+
+dhcp
+echo "welcome in start.ipxe"
+shell
